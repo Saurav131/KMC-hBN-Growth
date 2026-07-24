@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+title: "Kinetic Monte Carlo Simulation of hBN Growth"
+message: "If you use this software, please cite this repository."
+type: software
+
+authors:
+  - family-names: Mittal
+    given-names: Saurav
+
+version: 1.0.0
+date-released: 2026-07-24
+
+license: MIT
