@@ -5,13 +5,12 @@
 This repository contains a lattice-based Kinetic Monte Carlo (KMC) simulator for the
 epitaxial growth of monolayer hexagonal boron nitride (hBN) on a graphene substrate.
 
-The simulator models the nonequilibrium growth process occurring during Molecular
+The simulator models the growth process occurring during Molecular
 Beam Epitaxy (MBE), where Boron (B) and Nitrogen (N) atoms are deposited onto a
 graphene surface and subsequently undergo diffusion, desorption, and bond-preserving
 "swing" movements.
 
-Surface evolution is simulated using the rejection-free Gillespie Kinetic Monte Carlo
-algorithm. Transition rates are computed from Arrhenius kinetics using activation
+Transition rates are computed from Arrhenius kinetics using activation
 energy barriers obtained from Density Functional Theory (DFT) and Nudged Elastic
 Band (NEB) calculations available at: 
 
@@ -62,7 +61,7 @@ The simulation domain is a periodic
 
 hexagonal lattice.
 
-Periodic boundary conditions are applied in both directions to eliminate edge effects.
+Periodic boundary conditions are applied in both directions.
 
 Two neighbor definitions are used throughout the simulation:
 
