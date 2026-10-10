@@ -224,11 +224,11 @@ Boltzmann constant
 
 Lattice dimensions
 
-Deposition interval
+Deposition rate
 
 Maximum number of KMC iterations
 
-Output frequency
+attempt frequency
 
 Neighbor lookup tables
 
@@ -314,32 +314,6 @@ Stores the complete simulation state including
 
 • Restart information
 
-This file enables interrupted simulations to continue from the previous state.
-
-------------------------------------------------------------
-
-## Terminal Output
-
-During execution the program reports
-
-Current iteration
-
-Coverage
-
-Number of deposited atoms
-
-Number of desorbed atoms
-
-Number of diffusion events
-
-Number of swing events
-
-Number of active events
-
-Estimated physical simulation time
-
-Wall-clock execution time
-
 ------------------------------------------------------------
 
 ## Compilation
@@ -358,4 +332,4 @@ Run using
 
 Acknowledgement
 
-The physical model and energy barrier tables implemented in this code are based on the work of Ren Zhong, Kinetic Monte Carlo Simulation of MBE Growth of Layered Hexagonal Boron Nitride, M.S. Thesis, Cornell University, 2019. This repository provides an independent C++ implementation of the simulation algorithm with improvements in code organization, restart capability, and local event updates.
+The physical model and energy barrier tables implemented in this code are based on the work of Ren Zhong, Kinetic Monte Carlo Simulation of MBE Growth of Layered Hexagonal Boron Nitride, M.S. Thesis, Cornell University, 2019. This repository provides an independent C++ implementation of the simulation algorithm with code, restart capability, and local event updates.
